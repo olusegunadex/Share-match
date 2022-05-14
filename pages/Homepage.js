@@ -46,7 +46,9 @@ export default function Homepage() {
             We are simplifying the way you share foods with your friends,
             colleagues, partners and associates
           </p>
-          <button className="ctabuttons">Get Started!</button>
+          <button className="ctabuttons" onClick={handleLogin}>
+            Get Started!
+          </button>
         </div>
         <div className="contentbox2">
           <img
